@@ -7,19 +7,16 @@ body {
     padding: 0;
 }
 nav {
-    background: #999999;
+    background: rgba(153, 153, 153, 0.5);
     display: flex;
     height: 40px;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0 10px 10px -6px #999999;
-
-
 }
 main {
     margin: 0;
-
 }
 .logo{
     width: 40px;
@@ -52,7 +49,6 @@ main {
     color: #000000;
     background-color: #ffffff;
 }
-
 .img-profile {
     width: 200px;
     height: 100px;
@@ -70,17 +66,36 @@ main {
     width: 15px;
     max-width: 100%;
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
 .img-header {
-    background-image: url("../img/img1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #ffdd90;
     margin: 0;
     padding: 0;
-overflow: hidden;
+    overflow: hidden;
     max-width: 100%;
-}
-.header {
 
+}
+h1{
+    top: 300px;
+    right: 50px;
+    position: absolute;
+    font-size: 60px;
+    color: #292423;
+}
+h2{
+    top: 400px;
+    right: 50px;
+    position: absolute;
+    font-size: 50px;
+    color: #FFFFFF;
 
 }
