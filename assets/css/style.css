@@ -66,24 +66,14 @@ main {
     width: 15px;
     max-width: 100%;
 }
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
-.img-header {
+.home-module {
+    background-image: url("../img/img-4.jpeg");
+    width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    background-color: #ffdd90;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     max-width: 100%;
-
 }
+
 h1{
     top: 300px;
     right: 50px;
