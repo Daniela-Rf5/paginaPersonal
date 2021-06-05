@@ -73,8 +73,9 @@ h2{
     font-size: 50px;
     color: #292423
 }
+
 /*sobremi*/
-.listaServicios {
+.contenedo-sobremi {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -99,9 +100,22 @@ h2{
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
-
-/*contacto*/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .img-profile {
+        border-radius: 5%;
+}}
 .img-link {
     width: 55px;
     max-width: 100%;
+    }
+@media only screen and (max-width: 480px) {
+    .contenedo-sobremi,
+    .item {
+        width: 100%;
+    }
 }
+
+/*contacto*/
