@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\Users\Usuario\f5\personalPages\.idea/dataSources/
+/../../../../../../../:\Users\Usuario\f5\TDD-test-drive-development\personalPage\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
